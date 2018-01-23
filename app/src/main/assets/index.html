@@ -1,0 +1,44 @@
+<!--
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <head>
+
+    </head>
+
+    <body>
+    <h2>웹앱 테스트</h2>
+    </body>
+</html>
+-->
+<html>
+<script>
+
+</script>
+
+<head>
+    <title>페이지 링크</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<div data-role="page" id="page">
+    <div data-role="header" data-theme="b">
+        <h1>페이지 링크</h1>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" >
+            <li data-role="list-divider"> 내부 도메인</li>
+            <li><a href="sub.html" data-transition="slide">내부 페이지</a></li>
+            <li><a href="sub.html" data-rel="dialog" >다이어로그 페이지</a></li>
+            <li data-role="list-divider"> 외부 도메인</li>
+            <li><a href="http://www.naver.com" data-transition="slide" > www.naver.com</a></li>
+            <li><a href="sub.html" rel="external" data-transition="slide">외부링크 사용 내부페이지 열기</a></li>
+        </ul>
+    </div>
+    <div data-role="footer" data-theme="b">
+        <h4>클릭하시면 연결됩니다.</h4>
+    </div>
+</div>
+
